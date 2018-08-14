@@ -5,6 +5,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
  
+/// <summary>
+/// Projeto exemplo
+/// </summary>
 namespace CrudMvcWeb.Models
 {
     [Table("Clientes")]
