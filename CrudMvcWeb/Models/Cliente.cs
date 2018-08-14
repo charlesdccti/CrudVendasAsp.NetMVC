@@ -22,7 +22,7 @@ namespace CrudMvcWeb.Models
         [StringLength(14)]
         [Required(ErrorMessage = "Favor informar o CPF.")]
         public string cpf_cnpj { get; set; }
-         
+          
         //public string endereco { get; set; }
 
         //public string bairro { get; set; }
