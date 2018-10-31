@@ -171,11 +171,13 @@
       <DependentUpon>Cadastro.edmx</DependentUpon>
     </Compile>
     <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\ConsultorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Consultor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +210,8 @@
     <Content Include="Cadastro.edmx.diagram">
       <DependentUpon>Cadastro.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\CrudMvcWeb - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\CrudMvcWeb - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -238,6 +242,11 @@
     <Content Include="Views\Cliente\Details.cshtml" />
     <Content Include="Views\Cliente\Edit.cshtml" />
     <Content Include="Views\Cliente\Index.cshtml" />
+    <Content Include="Views\Consultor\Create.cshtml" />
+    <Content Include="Views\Consultor\Delete.cshtml" />
+    <Content Include="Views\Consultor\Details.cshtml" />
+    <Content Include="Views\Consultor\Edit.cshtml" />
+    <Content Include="Views\Consultor\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

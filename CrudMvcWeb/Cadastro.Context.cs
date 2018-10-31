@@ -15,5 +15,6 @@ namespace CrudMvcWeb
 
         public DbSet<Cliente> Clientes { get; set; }
 
+        public DbSet<Consultor> Consultors { get; set; }
     }
 }
